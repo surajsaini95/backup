@@ -1,0 +1,11 @@
+Started on 13 Apr, 2020 6:26:30 PM
+Started by event from 192.30.252.91 ⇒ https://26328179.ngrok.io:8080/github-webhook/ on Mon Apr 13 18:26:30 IST 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision e6b457e5db83635a2c3c31f62fbbe18f516998bc (refs/remotes/origin/feature/added-solutionOne)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/surajsaini95/square-rectangle.git # timeout=10
+Found 3 remote heads on https://github.com/surajsaini95/square-rectangle.git
+[poll] Latest remote head revision on refs/heads/feature/added-solutionOne is: 3fd4769db451792e90de66f37f4a919dd9dcfdbe
+Done. Took 1.1 sec
+Changes found

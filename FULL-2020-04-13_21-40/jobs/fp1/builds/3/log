@@ -1,0 +1,9 @@
+Started by user [8mha:////4F3uvutI3bdFyClyy1aPDvs94dpVzcoSto1PGbcmW1rwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /home/knoldus/.jenkins/workspace/fp1
+[fp1] $ /bin/sh -xe /tmp/jenkins4462030819825420869.sh
++ echo This is build one
+This is build one
++ echo Discard old build enabled by value 2
+Discard old build enabled by value 2
+Finished: SUCCESS

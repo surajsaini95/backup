@@ -1,0 +1,27 @@
+commit 3fd4769db451792e90de66f37f4a919dd9dcfdbe
+tree 32b24b8c3e3ce6d57fadb5214ec93fa04eaed342
+parent df6381e34fac86eb01ea9daf632611357c10acee
+author Suraj Saini <surajkumar90@rocketmail.com> 2020-04-13 18:26:28 +0530
+committer GitHub <noreply@github.com> 2020-04-13 18:26:28 +0530
+
+    Update Solution1.scala
+
+:100644 100644 36e8c59c9d4de5ecb473f360e5a06dfe3431c173 1a942720a694afef510ba997f0dccfd089837336 M	src/main/scala/com/knoldus/Solution1.scala
+commit df6381e34fac86eb01ea9daf632611357c10acee
+tree fa22b590a71944b95d2b1ae3c0d6044a70478c4d
+parent 779c7d3c391fe488ffe0c0fc01fa403e774f88c7
+author Suraj Saini <surajkumar90@rocketmail.com> 2020-04-13 17:38:19 +0530
+committer GitHub <noreply@github.com> 2020-04-13 17:38:19 +0530
+
+    updated for CI
+
+:100644 100644 97dfc1f7105d68d2da3e28aab75447e5ac4fab13 36e8c59c9d4de5ecb473f360e5a06dfe3431c173 M	src/main/scala/com/knoldus/Solution1.scala
+commit 779c7d3c391fe488ffe0c0fc01fa403e774f88c7
+tree 3efbf24ae4b5e0d19e3c9095d1423281255177e3
+parent e6b457e5db83635a2c3c31f62fbbe18f516998bc
+author Suraj Saini <surajkumar90@rocketmail.com> 2020-04-13 16:09:38 +0530
+committer GitHub <noreply@github.com> 2020-04-13 16:09:38 +0530
+
+    Update Solution1.scala
+
+:100644 100644 081933f6c6882f982fd8ad91b2cb136949d32ab1 97dfc1f7105d68d2da3e28aab75447e5ac4fab13 M	src/main/scala/com/knoldus/Solution1.scala

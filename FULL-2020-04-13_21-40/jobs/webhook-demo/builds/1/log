@@ -1,0 +1,29 @@
+Started by GitHub push by surajsaini95
+Running as SYSTEM
+Building in workspace /home/knoldus/.jenkins/workspace/webhook-demo
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/surajsaini95/test-webhook.git
+ > git init /home/knoldus/.jenkins/workspace/webhook-demo # timeout=10
+Fetching upstream changes from https://github.com/surajsaini95/test-webhook.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/surajsaini95/test-webhook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/surajsaini95/test-webhook.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/surajsaini95/test-webhook.git # timeout=10
+Fetching upstream changes from https://github.com/surajsaini95/test-webhook.git
+ > git fetch --tags --progress -- https://github.com/surajsaini95/test-webhook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9be1563d24895a4342656a2613bc593a59d83091 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9be1563d24895a4342656a2613bc593a59d83091 # timeout=10
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+[webhook-demo] $ /bin/sh -xe /tmp/jenkins1739250265775344627.sh
++ cat README.md
+# test-webhook
+demo content added again jasbkjddbk
+ejkfbksjdnvksjlnksjaflknelfn;sfewf
+
+Finished: SUCCESS

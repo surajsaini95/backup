@@ -1,0 +1,9 @@
+commit e6b457e5db83635a2c3c31f62fbbe18f516998bc
+tree 549043f462743abb5e30aae43b14859501259407
+parent 32da25faf20f79115aaa68cab1737ee72d7cb193
+author Suraj Saini <surajkumar90@rocketmail.com> 2020-03-13 18:13:44 +0530
+committer GitHub <noreply@github.com> 2020-03-13 18:13:44 +0530
+
+    Update plugin.sbt
+
+:100644 100644 52e2f19eb4a1ee73da46189c1297670e518884ee 03deb5c853dbf5750e69862e5765773ca22dcd12 M	project/plugin.sbt

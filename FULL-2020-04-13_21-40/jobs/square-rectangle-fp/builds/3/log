@@ -1,0 +1,50 @@
+Started by GitHub push by surajsaini95
+Running as SYSTEM
+Building in workspace /home/knoldus/.jenkins/workspace/square-rectangle-fp
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/surajsaini95/square-rectangle.git # timeout=10
+Fetching upstream changes from https://github.com/surajsaini95/square-rectangle.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/surajsaini95/square-rectangle.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse feature/added-solutionOne^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/feature/added-solutionOne^{commit} # timeout=10
+Checking out Revision 3fd4769db451792e90de66f37f4a919dd9dcfdbe (refs/remotes/origin/feature/added-solutionOne)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3fd4769db451792e90de66f37f4a919dd9dcfdbe # timeout=10
+Commit message: "Update Solution1.scala"
+ > git rev-list --no-walk e6b457e5db83635a2c3c31f62fbbe18f516998bc # timeout=10
+ > git tag -a -f -m Jenkins Build #3 jenkins-square-rectangle-fp-3 # timeout=10
+[square-rectangle-fp] $ /bin/sh -xe /tmp/jenkins3663895137454735158.sh
++ sbt clean compile
+[info] Loading global plugins from /home/knoldus/.sbt/1.0/plugins
+[info] Loading settings for project square-rectangle-fp-build from plugin.sbt ...
+[info] Loading project definition from /home/knoldus/.jenkins/workspace/square-rectangle-fp/project
+[info] Loading settings for project square-rectangle-fp from build.sbt ...
+[info] Set current project to square–rectangle (in build file:/home/knoldus/.jenkins/workspace/square-rectangle-fp/)
+[info] Executing in batch mode. For better performance use sbt's shell
+[success] Total time: 0 s, completed 13 Apr, 2020 6:26:58 PM
+[info] Compiling 4 Scala sources to /home/knoldus/.jenkins/workspace/square-rectangle-fp/target/scala-2.13/classes ...
+[info] Done compiling.
+[success] Total time: 6 s, completed 13 Apr, 2020 6:27:04 PM
++ echo Compiled successfully
+Compiled successfully
++ sbt scalastyle
+[info] Loading global plugins from /home/knoldus/.sbt/1.0/plugins
+[info] Loading settings for project square-rectangle-fp-build from plugin.sbt ...
+[info] Loading project definition from /home/knoldus/.jenkins/workspace/square-rectangle-fp/project
+[info] Loading settings for project square-rectangle-fp from build.sbt ...
+[info] Set current project to square–rectangle (in build file:/home/knoldus/.jenkins/workspace/square-rectangle-fp/)
+[info] scalastyle using config /home/knoldus/.jenkins/workspace/square-rectangle-fp/scalastyle-config.xml
+[warn] /home/knoldus/.jenkins/workspace/square-rectangle-fp/src/main/scala/com/knoldus/Solution1.scala:18:0: Whitespace at end of line
+[info] scalastyle Processed 4 file(s)
+[info] scalastyle Found 0 errors
+[info] scalastyle Found 1 warnings
+[info] scalastyle Found 0 infos
+[info] scalastyle Finished in 13 ms
+[success] created output: /home/knoldus/.jenkins/workspace/square-rectangle-fp/target
+[warn] warnings exist
+[success] Total time: 1 s, completed 13 Apr, 2020 6:27:16 PM
+[Set GitHub commit status (universal)] PENDING on repos [] (sha:3fd4769) with context:square-rectangle
+Finished: SUCCESS

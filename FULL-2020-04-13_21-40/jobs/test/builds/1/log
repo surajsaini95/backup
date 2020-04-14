@@ -1,0 +1,43 @@
+Started by user [8mha:////4F3uvutI3bdFyClyy1aPDvs94dpVzcoSto1PGbcmW1rwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /home/knoldus/.jenkins/workspace/test
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/surajsaini95/square-rectangle.git
+ > git init /home/knoldus/.jenkins/workspace/test # timeout=10
+Fetching upstream changes from https://github.com/surajsaini95/square-rectangle.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/surajsaini95/square-rectangle.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/surajsaini95/square-rectangle.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/surajsaini95/square-rectangle.git # timeout=10
+Fetching upstream changes from https://github.com/surajsaini95/square-rectangle.git
+ > git fetch --tags --progress -- https://github.com/surajsaini95/square-rectangle.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse feature/added-solutionOne^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/feature/added-solutionOne^{commit} # timeout=10
+Checking out Revision 32da25faf20f79115aaa68cab1737ee72d7cb193 (refs/remotes/origin/feature/added-solutionOne)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 32da25faf20f79115aaa68cab1737ee72d7cb193 # timeout=10
+Commit message: "solution1"
+First time build. Skipping changelog.
+[test] $ /bin/sh -xe /tmp/jenkins4326837408893781849.sh
++ sbt clean compile
+[info] Loading global plugins from /home/knoldus/.sbt/1.0/plugins
+[info] Loading settings for project test-build from plugin.sbt ...
+[info] Loading project definition from /home/knoldus/.jenkins/workspace/test/project
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[info] Loading settings for project test from build.sbt ...
+[info] Set current project to square–rectangle (in build file:/home/knoldus/.jenkins/workspace/test/)
+[info] Executing in batch mode. For better performance use sbt's shell
+[success] Total time: 0 s, completed 13 Mar, 2020 5:56:57 PM
+[info] Compiling 4 Scala sources to /home/knoldus/.jenkins/workspace/test/target/scala-2.13/classes ...
+[info] Done compiling.
+[success] Total time: 5 s, completed 13 Mar, 2020 5:57:02 PM
++ sbt test
+[info] Loading global plugins from /home/knoldus/.sbt/1.0/plugins
+[info] Loading settings for project test-build from plugin.sbt ...
+[info] Loading project definition from /home/knoldus/.jenkins/workspace/test/project
+[info] Loading settings for project test from build.sbt ...
+[info] Set current project to square–rectangle (in build file:/home/knoldus/.jenkins/workspace/test/)
+[success] Total time: 1 s, completed 13 Mar, 2020 5:57:15 PM
+Finished: SUCCESS
