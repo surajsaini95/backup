@@ -1,0 +1,19 @@
+Started by user [8mha:////4F3uvutI3bdFyClyy1aPDvs94dpVzcoSto1PGbcmW1rwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /home/knoldus/.jenkins/workspace/automate-backup
+[automate-backup] $ /bin/sh -xe /tmp/jenkins3724633555201854995.sh
++ location=/home/knoldus/Desktop/devops-training/Jenkins/backup
++ cd /home/knoldus/Desktop/devops-training/Jenkins/backup
++ ls -al
+total 20
+drwxr-xr-x 4 knoldus knoldus 4096 Apr 14 10:33 .
+drwxr-xr-x 4 knoldus knoldus 4096 Apr 13 20:40 ..
+drwxr-xr-x 5 knoldus knoldus 4096 Apr 13 21:40 FULL-2020-04-13_21-40
+drwxr-xr-x 8 knoldus knoldus 4096 Apr 14 10:36 .git
+-rw-r--r-- 1 knoldus knoldus   33 Apr 14 10:33 README.md
++ git status
++ grep FULL
++ add_dir=	FULL-2020-04-13_21-40/
+/tmp/jenkins3724633555201854995.sh: 6: /tmp/jenkins3724633555201854995.sh: Bad substitution
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

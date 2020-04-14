@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>push backup to git automatically</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>location=/home/knoldus/Desktop/devops-training/Jenkins/backup
+cd $location
+ls -al
+
+# add_dir=`git status | grep &quot;FULL&quot;`
+# msg=${add_dir:6:10}
+
+git add .
+
+# echo &quot;dir : $add_dir&quot;
+# echo &quot;msg : $msg&quot;
+
+git commit -m &quot;backup/added&quot;
+echo &quot;commit done&quot;
+git push -u origin master
+echo &quot;push done&quot;</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

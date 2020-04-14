@@ -1,0 +1,191 @@
+Started by user [8mha:////4F3uvutI3bdFyClyy1aPDvs94dpVzcoSto1PGbcmW1rwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /home/knoldus/.jenkins/workspace/automate-backup
+[automate-backup] $ /bin/sh -xe /tmp/jenkins5567918753288263223.sh
++ location=/home/knoldus/Desktop/devops-training/Jenkins/backup
++ cd /home/knoldus/Desktop/devops-training/Jenkins/backup
++ ls -al
+total 20
+drwxr-xr-x 4 knoldus knoldus 4096 Apr 14 10:33 .
+drwxr-xr-x 4 knoldus knoldus 4096 Apr 13 20:40 ..
+drwxr-xr-x 5 knoldus knoldus 4096 Apr 13 21:40 FULL-2020-04-13_21-40
+drwxr-xr-x 8 knoldus knoldus 4096 Apr 14 10:38 .git
+-rw-r--r-- 1 knoldus knoldus   33 Apr 14 10:33 README.md
++ git add .
++ git commit -m backup/added
+[master 38aca48] backup/added
+ 164 files changed, 2052 insertions(+)
+ create mode 100644 FULL-2020-04-13_21-40/com.cloudbees.hudson.plugins.folder.config.AbstractFolderConfiguration.xml
+ create mode 100644 FULL-2020-04-13_21-40/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/hudson.model.UpdateCenter.xml
+ create mode 100644 FULL-2020-04-13_21-40/hudson.plugins.emailext.ExtendedEmailPublisher.xml
+ create mode 100644 FULL-2020-04-13_21-40/hudson.plugins.git.GitTool.xml
+ create mode 100644 FULL-2020-04-13_21-40/installedPlugins.xml
+ create mode 100644 FULL-2020-04-13_21-40/jenkins.model.JenkinsLocationConfiguration.xml
+ create mode 100644 FULL-2020-04-13_21-40/jenkins.telemetry.Correlator.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo1/builds/1/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo1/builds/1/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo1/builds/1/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo1/builds/2/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo1/builds/2/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo1/builds/2/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo1/builds/legacyIds
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo1/builds/permalinks
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo1/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo1/nextBuildNumber
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo2/builds/1/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo2/builds/1/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo2/builds/1/log-index
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo2/builds/legacyIds
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo2/builds/permalinks
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo2/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/demo2/nextBuildNumber
+ create mode 100644 FULL-2020-04-13_21-40/jobs/fp1/builds/2/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/fp1/builds/2/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/fp1/builds/2/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/fp1/builds/3/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/fp1/builds/3/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/fp1/builds/3/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/fp1/builds/legacyIds
+ create mode 100644 FULL-2020-04-13_21-40/jobs/fp1/builds/permalinks
+ create mode 100644 FULL-2020-04-13_21-40/jobs/fp1/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/fp1/nextBuildNumber
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/1/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/1/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/1/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/2/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/2/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/2/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/3/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/3/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/3/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/3/polling.log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/legacyIds
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/builds/permalinks
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/square-rectangle-fp/nextBuildNumber
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test-webhook/builds/1/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test-webhook/builds/1/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test-webhook/builds/1/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test-webhook/builds/1/polling.log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test-webhook/builds/legacyIds
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test-webhook/builds/permalinks
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test-webhook/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test-webhook/nextBuildNumber
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test/builds/1/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test/builds/1/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test/builds/1/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test/builds/2/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test/builds/2/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test/builds/2/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test/builds/legacyIds
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test/builds/permalinks
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test/nextBuildNumber
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test1/builds/legacyIds
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test1/builds/permalinks
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test1/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/test1/nextBuildNumber
+ create mode 100644 FULL-2020-04-13_21-40/jobs/webhook-demo/builds/1/build.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/webhook-demo/builds/1/changelog.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/webhook-demo/builds/1/log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/webhook-demo/builds/1/polling.log
+ create mode 100644 FULL-2020-04-13_21-40/jobs/webhook-demo/builds/legacyIds
+ create mode 100644 FULL-2020-04-13_21-40/jobs/webhook-demo/builds/permalinks
+ create mode 100644 FULL-2020-04-13_21-40/jobs/webhook-demo/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/jobs/webhook-demo/nextBuildNumber
+ create mode 100644 FULL-2020-04-13_21-40/nodeMonitors.xml
+ create mode 100644 FULL-2020-04-13_21-40/org.jenkinsci.plugins.resourcedisposer.AsyncResourceDisposer.xml
+ create mode 100644 FULL-2020-04-13_21-40/org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+ create mode 100644 FULL-2020-04-13_21-40/plugins/ace-editor.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/ant.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/antisamy-markup-formatter.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/apache-httpcomponents-client-4-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/authentication-tokens.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/bouncycastle-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/branch-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/build-timeout.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/cloudbees-folder.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/command-launcher.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/credentials-binding.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/credentials.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/display-url-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/docker-build-step.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/docker-commons.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/docker-java-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/docker-plugin.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/docker-workflow.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/durable-task.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/email-ext.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/git-client.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/git-server.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/git.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/github-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/github-branch-source.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/github.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/gradle.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/handlebars.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/jackson2-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/jdk-tool.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/jquery-detached.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/jsch.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/junit.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/ldap.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/lockable-resources.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/mailer.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/mapdb-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/matrix-auth.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/matrix-project.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/momentjs.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pam-auth.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-build-step.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-github-lib.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-graph-analysis.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-input-step.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-milestone-step.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-model-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-model-declarative-agent.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-model-definition.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-model-extensions.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-rest-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-stage-step.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-stage-tags-metadata.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/pipeline-stage-view.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/plain-credentials.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/resource-disposer.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/scm-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/script-security.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/ssh-credentials.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/ssh-slaves.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/structs.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/subversion.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/thinBackup.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/timestamper.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/token-macro.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/trilead-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-aggregator.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-basic-steps.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-cps-global-lib.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-cps.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-durable-task-step.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-job.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-multibranch.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-scm-step.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-step-api.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/workflow-support.jpi
+ create mode 100644 FULL-2020-04-13_21-40/plugins/ws-cleanup.jpi
+ create mode 100644 FULL-2020-04-13_21-40/thinBackup.xml
+ create mode 100644 FULL-2020-04-13_21-40/users/admin_3812499840820889452/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/users/noreply_761814115055267742/config.xml
+ create mode 100644 FULL-2020-04-13_21-40/users/users.xml
++ echo commit done
+commit done
++ git push -u origin master
+Warning: Permanently added the RSA host key for IP address '140.82.118.3' to the list of known hosts.
+To github.com:surajsaini95/backup.git
+   9aac73b..38aca48  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
++ echo push done
+push done
+Finished: SUCCESS
